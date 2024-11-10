@@ -19,7 +19,8 @@ public class IdXPathDemo {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Suman5.Saha");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Sit@0708");
-		driver.findElement(By.xpath("//input[@value='Login']")).click();		
+		driver.findElement(By.xpath("//input[@value='Login']")).click();	
+		System.out.println();
 	}
 
 }

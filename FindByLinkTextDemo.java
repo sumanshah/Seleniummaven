@@ -18,7 +18,7 @@ public class FindByLinkTextDemo {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.name("username")).sendKeys("Suman5.Saha");
-		driver.findElement(By.name("password")).sendKeys("Sit@0708");
+		driver.findElement(By.name("password")).sendKeys("Sit@1409");
 		driver.findElement(By.xpath("//*[@type='submit' and @value='Login']")).click();
 		//driver.findElement(By.xpath("//div[@class='profile-pic']")).click();
 		driver.findElement(By.linkText("Things")).click();
